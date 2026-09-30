@@ -1,0 +1,1 @@
+RSVP fix: Google Apps Script receives the submission, but browser CORS prevents reading the response. The frontend now uses a no-cors POST and treats a successful network request as submitted instead of trying to parse the response JSON.
